@@ -43,7 +43,7 @@ _, thresh = cv2.threshold(img_gray, a/2+60, a,cv2.THRESH_BINARY_INV)
 
  Lets test this on a tomato
 
-```
+```python
 import numpy as np
 import cv2 
 im = cv2.imread('tomato.jpg')
@@ -61,7 +61,7 @@ _, thresh = cv2.threshold(imgray, a/2+60, a,cv2.THRESH_BINARY_INV)
 
 Now, the syntax for **finding** contours is simply,
 
-```
+```python
 contours, hierarchy = cv.findContours(thresh, cv.RETR_TREE, cv.CHAIN_APPROX_SIMPLE)
 ```
 
@@ -75,7 +75,7 @@ contours, hierarchy = cv.findContours(thresh, cv.RETR_TREE, cv.CHAIN_APPROX_SIMP
 
 - To draw all the contours in an image:
 
-  ```
+  ```python
   cv2.drawContours(img, contours, -1, (0,255,0), 3)
   ```
 
@@ -85,7 +85,7 @@ contours, hierarchy = cv.findContours(thresh, cv.RETR_TREE, cv.CHAIN_APPROX_SIMP
 
 - To draw an individual contour in an image, say 1st contour:
 
-  ```
+  ```python
   cv2.drawContours(img, contours, 0, (0,255,0), 3) 
   #'0' in third positon indicates first index
   ```
