@@ -14,7 +14,7 @@ A **contour line** is simply a curve line that joins all the continuous points (
 
 [^Note]: Do not confuse contours with edges. Edges lies in a local range: they only point out the difference between the neighbouring pixels. Contours are often obtained from **edges**, but they need to be closed curves. Think of them as boundaries.
 
-![Example of a contour](images\pPmY9.png)
+![Example of a contour](images/pPmY9.png)
 
 
 
