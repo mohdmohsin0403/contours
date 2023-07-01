@@ -10,7 +10,7 @@ In this article, you will learn how to find and draw contours along with the imp
 
 ### What are Contours?
 
-A **contour line** is simply a curve line that joins all the continuous points (along the boundary) that have the same values or the same intensities. Basically, contour can be defined as an outline or a border of  any object.
+A **contour line** is simply a curve line that joins all the continuous points (along the boundary) that have the same values or the same intensities. Basically, contour can be defined as an outline or a border of any object.
 
 > Note: Do not confuse contours with edges. Edges lies in a local range: they only point out the difference between the neighbouring pixels. Contours are often obtained from **edges**, but they need to be closed curves. Think of them as boundaries.
 
